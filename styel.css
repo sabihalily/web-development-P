@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+
+h1{
+font-size:50px;
+font-family: sans-serif;
+
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: rebeccapurple;
+}
+.name{
+    color: orange;
+}
+.half-width{
+
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+
+    width: 100%;
+}
+.top-banner {
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+
+    height: 500px;
+    padding-bottom: 170px;
+}
+.link-button{
+
+    text-decoration: none;
+    background-image:linear-gradient(lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: palegoldenrod;
+    font-weight: 700px;
+}
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+ .single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+.exprience-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, pink);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    color:green;
+}
